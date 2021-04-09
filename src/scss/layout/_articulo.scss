@@ -1,0 +1,31 @@
+.sobre-festival{
+    padding: $separacion 0;
+    @include Tableta{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    
+    .contenido-festival{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h3{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            font-size: 3rem;
+            padding-top: 1rem;
+            span{
+                color: $rosa;
+                font-size: 2rem;
+                padding-top: 3rem;
+            }
+        }
+        p{
+            text-align: justify;
+            line-height: 1.5;
+        }
+    }
+}

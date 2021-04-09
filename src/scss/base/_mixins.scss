@@ -1,0 +1,15 @@
+@mixin Telefono {
+    @media (min-width: $telefono){
+        @content;
+    }
+}
+@mixin Tableta {
+    @media (min-width: $tableta){
+        @content;
+    }
+}
+@mixin Escritorio {
+    @media (min-width: $escritorio){
+        @content;
+    }
+}
